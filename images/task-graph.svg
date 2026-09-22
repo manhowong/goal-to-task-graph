@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000000ff"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000000ff"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+
+    <!-- Hamiltonian path edges (blue accent) -->
+  <g stroke="#9cc4ffff" stroke-width="25" fill="none">
+    <line x1="75.86"  y1="176.92" x2="119.70" y2="113.08"/>
+    <line x1="144.65" y1="116.48" x2="202.02" y2="283.52"/>
+    <line x1="220.20" y1="283.52" x2="277.58" y2="116.48"/>
+    <line x1="295.76" y1="116.48" x2="353.13" y2="283.52"/>
+    <line x1="371.31" y1="283.52" x2="428.69" y2="116.48"/>
+    <line x1="446.87" y1="116.48" x2="504.24" y2="283.52"/>
+    <line x1="522.42" y1="283.52" x2="579.80" y2="116.48"/>
+    <line x1="597.98" y1="116.48" x2="655.35" y2="283.52"/>
+    <line x1="680.30" y1="286.92" x2="724.14" y2="223.08"/>
+  </g>
+
+  <!-- Non-Hamiltonian edges (gray) -->
+  <g stroke="#000000ff" stroke-width="4" fill="none">
+    <line x1="85.19"  y1="187.78" x2="261.48" y2="102.22" marker-end="url(#arrow-gray)"/>
+    <line x1="163.56" y1="90"     x2="258.67" y2="90"     marker-end="url(#arrow-gray)"/>
+    <line x1="155.65" y1="109.50" x2="342.13" y2="290.50" marker-end="url(#arrow-gray)"/>
+    <line x1="382.31" y1="290.50" x2="568.80" y2="109.50" marker-end="url(#arrow-gray)"/>
+    <line x1="465.78" y1="90"     x2="560.89" y2="90"     marker-end="url(#arrow-gray)"/>
+    <line x1="538.52" y1="297.78" x2="714.81" y2="212.22" marker-end="url(#arrow-gray)"/>
+  </g>
+
+  <!-- Hamiltonian path edges (blue accent) -->
+  <g stroke="#000000ff" stroke-width="4" fill="none">
+    <line x1="75.86"  y1="176.92" x2="119.70" y2="113.08" marker-end="url(#arrow-blue)"/>
+    <line x1="144.65" y1="116.48" x2="202.02" y2="283.52" marker-end="url(#arrow-blue)"/>
+    <line x1="220.20" y1="283.52" x2="277.58" y2="116.48" marker-end="url(#arrow-blue)"/>
+    <line x1="295.76" y1="116.48" x2="353.13" y2="283.52" marker-end="url(#arrow-blue)"/>
+    <line x1="371.31" y1="283.52" x2="428.69" y2="116.48" marker-end="url(#arrow-blue)"/>
+    <line x1="446.87" y1="116.48" x2="504.24" y2="283.52" marker-end="url(#arrow-blue)"/>
+    <line x1="522.42" y1="283.52" x2="579.80" y2="116.48" marker-end="url(#arrow-blue)"/>
+    <line x1="597.98" y1="116.48" x2="655.35" y2="283.52" marker-end="url(#arrow-blue)"/>
+    <line x1="680.30" y1="286.92" x2="724.14" y2="223.08" marker-end="url(#arrow-blue)"/>
+  </g>
+
+  <!-- Nodes -->
+  <g>
+    <circle cx="60" cy="200" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="60" y="200" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task A</text>
+
+    <circle cx="135.56" cy="90" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="135.56" y="90" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task B</text>
+
+    <circle cx="211.11" cy="310" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="211.11" y="310" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task C</text>
+
+    <circle cx="286.67" cy="90" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="286.67" y="90" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task D</text>
+
+    <circle cx="362.22" cy="310" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="362.22" y="310" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task E</text>
+
+    <circle cx="437.78" cy="90" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="437.78" y="90" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task F</text>
+
+    <circle cx="513.33" cy="310" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="513.33" y="310" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task G</text>
+
+    <circle cx="588.89" cy="90" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="588.89" y="90" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task H</text>
+
+    <circle cx="664.44" cy="310" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="664.44" y="310" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task I</text>
+
+    <circle cx="740" cy="200" r="28" fill="#ffffff" stroke="#888888" stroke-width="3"/>
+    <text x="740" y="200" text-anchor="middle" dominant-baseline="middle" font-size="15" fill="#000000">Task J</text>
+  </g>
+</svg>
