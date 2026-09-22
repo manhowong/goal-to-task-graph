@@ -486,3 +486,4 @@ result = generate_task_graph(
 
 ## License
 
+[GNU General Public License v3.0](/LICENSE)
