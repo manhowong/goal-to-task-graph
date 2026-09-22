@@ -1,0 +1,22 @@
+[workspace]
+authors = ["manhowong <92902645+manhowong@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "Mulit-Agentic-App-with-LangGraph"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.11,<3.13"
+langgraph = "*"
+openai = "*"
+pydantic = "*"
+numpy = "*"
+sentence-transformers = "*"
+mcp = "*"
+ 
+[pypi-dependencies]
+# Not confirmed on conda-forge; pin >=3.0.1 to pick up the fix for
+# CVE-2025-67644 (SQL injection in SqliteSaver.list/alist on <3.0.1).
+langgraph-checkpoint-sqlite = ">=3.0.1"
